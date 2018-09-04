@@ -1,0 +1,135 @@
+body{
+    
+    
+    font-family:arial, helvetica, sans-serif;
+    background-color: rgb(75, 100, 255);
+    font-size:15px;
+    line-height: 1.5;
+    color: rgb(00, 10, 50);
+    
+    
+    
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align: center;
+}
+
+header{
+    background: red;
+    color: rgb(100,255,1);
+    border-bottom:black 5px solid;
+    border-left: black 5px solid;
+}
+footer{
+    background-color: red;
+    color: rgb(100,255,1);
+    border-top:black 5px solid;
+    text-align: center;
+}
+header h1{
+    float:left ;
+    margin-right:10px;
+}
+
+nav{
+    float: right;
+}
+
+header ul{
+    display: inline;
+    color:black;
+    font-size: 15px;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:gold;
+}
+
+header a:hover{
+    font-weight:bold;
+    color:silver;
+}
+footer a:hover{
+    font-weight:bold;
+    color:white;
+}
+#showcase{
+    background:url(John_Wick2.jpg) no-repeat +275px -40px;
+    min-height: 500px;
+    max-height: 3000px;
+    min-width: 500px;
+}
+#showcase p{
+    
+    width:40%;
+    margin:auto;
+    color:gold;
+    
+}
+#showcase h1{
+    width:40%;
+    margin:auto;
+}
+
+header li{
+    text-align: center;
+}
+header h2{
+    text-align:center;
+    color:gold;
+}
+.container h2{
+    color:white;
+}
+
+.highlight{
+    color:silver;
+    font-weight: bold;
+}
+#main{
+    text-align:left;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+} 
+.dark{
+    background-color: black;
+    padding: 15px;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sidebar2{
+    float:left;
+    width:20%;
+    margin-bottom:40px;
+    margin-right:40px;
+    margin-top:10px;
+}
+#main li{
+    list-style:none;
+    margin-top:30px;
+    font-size:10px;
+}
+@media(max-width: 770px){
+    header h1, nav{
+        float:none;
+    }
+}
+header ul{
+    margin:0px;
+    padding:0px;
+}
+header h1, nav,.training{
+    color:purple;
+    float:none;
+    
+}

@@ -1,0 +1,54 @@
+
+
+header{
+    background: red;
+    color: rgb(100,255,1);
+    text-align: center;
+    border-bottom:black 5px solid;
+    border-left: black 5px solid;
+}
+.heading{
+    
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align: center;
+}
+body{
+    background-color:rgb(250, 200, 155);
+}
+
+#parag h4{
+    
+    width:40%;
+    margin:auto;
+    color:silver;
+    
+}
+#parag h2{
+    width:40%;
+    margin:auto;
+}
+
+#parag { 
+    /* The image used */
+    background-image: url("aguaFuego.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: red;
+    color: rgb(100,255,1);
+    border-top:black 5px solid;
+    text-align: center;
+}
+footer a:hover{
+    font-weight:bold;
+    color:white;
+}
