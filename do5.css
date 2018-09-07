@@ -14,10 +14,20 @@ header{
     overflow:hidden;
     text-align: center;
 }
-body{
-    background-color:rgb(250, 200, 155);
-}
+body{ 
+    /* The image used */
+    min-height: 750px;
+    max-height: 3000px;
+    min-width: 500px;
 
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #parag h4{
     
     width:40%;
@@ -28,27 +38,30 @@ body{
 #parag h2{
     width:40%;
     margin:auto;
+    text-align: center;
+    color: white;
 }
-
-#parag { 
-    /* The image used */
-    background-image: url("aguaFuego.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#parag{
+    color: white;
 }
 footer{
     background-color: red;
-    color: rgb(100,255,1);
     border-top:black 5px solid;
     text-align: center;
+    width: 100%;
+    
+    position: fixed;
+    
+    
+display: block;
+    bottom: 0;
 }
 footer a:hover{
     font-weight:bold;
     color:white;
+}
+#parag h3{
+    font-size:30px;
+    text-align: center;
+    color: purple;
 }

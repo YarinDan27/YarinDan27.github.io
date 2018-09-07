@@ -57,7 +57,7 @@ header a:hover{
 footer a:hover{
     font-weight:bold;
     color:white;
-}
+}     
 #showcase{
     background:url(John_Wick2.jpg) no-repeat +275px -40px;
     min-height: 500px;
